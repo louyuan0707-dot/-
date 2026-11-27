@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪映配音粗剪"
+  short_description: "长镜头优先，原声对白与字幕同步，交付可见草稿"
+  default_prompt: "Use $jianying-rough-cut. Check every source and repair clip, preserve continuous 1x character dialogue and original effects, place only complete narration between speech, keep music audible near -6 dB, and make punctuation-free subtitles with at most two lines. Verify the rendered preview and register the editable draft after Jianying exits when the user has asked for a draft."
