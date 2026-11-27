@@ -1,0 +1,20 @@
+{
+  "name": "drama-episode-marketplace",
+  "interface": {
+    "displayName": "短剧分镜剪辑插件"
+  },
+  "plugins": [
+    {
+      "name": "drama-episode-suite",
+      "source": {
+        "source": "local",
+        "path": "./plugins/drama-episode-suite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
