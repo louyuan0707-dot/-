@@ -1,0 +1,23 @@
+{
+  "name": "drama-episode-suite",
+  "version": "1.1.0+codex.20261125",
+  "description": "Control multi-episode Dreama storyboards and Jianying rough cuts with source-grounded checks and per-episode handoff.",
+  "author": {
+    "name": "Personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "短剧分镜剪辑总控",
+    "shortDescription": "统筹剧梦分镜、分集下载和剪映粗剪",
+    "longDescription": "包含总控、lyy 剧梦分镜和剪映配音粗剪三个独立 Skill；总控负责生成前的分镜与组界检查、素材交接、流水线剪辑和问题追踪。",
+    "developerName": "Personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Multi-episode storyboard preflight",
+      "Dreama asset and video production",
+      "Per-episode download and handoff",
+      "Jianying rough-cut editing",
+      "Issue tracking and review gates"
+    ]
+  }
+}
